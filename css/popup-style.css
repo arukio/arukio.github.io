@@ -1,0 +1,20 @@
+.pop-up {
+  transition: all;
+  transition-duration: 0.25s;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  padding: 10px 0px 10px 0px;
+  width: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.75);
+  color: white;
+  overflow: hidden;
+  z-index: 999; }
+  .pop-up:hover {
+    cursor: pointer; }
