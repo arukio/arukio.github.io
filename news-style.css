@@ -1,0 +1,208 @@
+.main-container{
+
+    position: relative;
+
+    height: auto;
+}
+
+.main-container .background-image
+{
+    width: 100%;
+
+    height: calc(100% - 40px);
+
+    opacity: 0.2;
+}
+
+.title-container
+{
+    color: black;
+
+    position: relative;
+
+    top: 20px;
+
+    border-bottom: solid 1px #EEE;
+
+    width: 100%;
+}
+
+.title
+{
+    font-family: 'Nanum Myeongjo', serif;
+
+    margin-top: 25px;
+
+    margin-left: 50px;
+
+    margin-bottom: 0;
+
+    font-size: 45px;
+
+    color: #71298D;
+}
+
+@media only screen and (max-width:650px)
+{
+    .list-container
+    {
+        position: relative;
+
+        top: 0;
+
+        height: auto;
+
+        padding-top: 25px;
+
+    }
+}
+
+@media only screen and (min-width:650px)
+{
+    .list-container
+    {
+        position: relative;
+
+        top: 0;
+
+        height: auto;
+
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (max-width:1023px)
+{
+    .list-container .list-member
+    {
+        position: relative;
+
+        height: auto;
+
+        margin-bottom: 25px;
+
+        border-bottom: 1px solid #EEE;
+
+        left: 50%;
+
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (min-width:1024px)
+{
+    .list-container .list-member
+    {
+        position: relative;
+
+        height: auto;
+
+        margin-bottom: 25px;
+
+        border-bottom: 1px solid #EEE;
+    }
+}
+
+@media only screen and (max-width:1023px)
+{
+    .list-member .photo
+    {
+        position: relative;
+
+        top: 0;
+
+        height: auto;
+
+        width: 75%;
+
+        max-width: 400px;
+
+        max-height: 250px;
+
+        display: block;
+
+        left: 50%;
+
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (min-width:1024px)
+{
+    .list-member .photo
+    {
+        position: relative;
+
+        padding-left: 25px;
+
+        height: auto;
+
+        width: 50%;
+
+        max-width: 400px;
+
+        max-height: 250px;
+
+        display: inline-block;
+
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width:1023px)
+{
+    .list-member .new-title
+    {
+        text-align: center;
+    }
+
+    .list-member .text
+    {
+        position: relative;
+
+        display: inline-block;
+
+        width: 80%;
+
+        font-family: 'Rokkitt', serif;
+
+        /* text-align: center; */
+
+        left: 50%;
+
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (min-width:1024px)
+{
+    .list-member .text
+    {
+        position: relative;
+
+        padding-left: 25px;
+
+        display: inline-block;
+
+        width: 50%;
+
+        font-family: 'Rokkitt', serif;
+    }
+}
+
+.pages-div
+{
+    position: fixed;
+
+    bottom: 0;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+img{
+
+    vertical-align: top;
+
+}
